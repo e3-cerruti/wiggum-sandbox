@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Think Pair Share</title>
+  <desc id="desc">Example classroom visual for Think Pair Share with three connected stages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 72px Inter, Arial, sans-serif; fill: #f8fafc; }
+      .subtitle { font: 400 30px Inter, Arial, sans-serif; fill: #cbd5e1; }
+      .card-title { font: 700 44px Inter, Arial, sans-serif; fill: #ffffff; }
+      .card-text { font: 400 26px Inter, Arial, sans-serif; fill: #dbeafe; }
+      .arrow { stroke: #60a5fa; stroke-width: 10; fill: none; marker-end: url(#m); }
+    </style>
+    <marker id="m" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,8 L8,4 z" fill="#60a5fa"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="120" text-anchor="middle" class="title">Think · Pair · Share</text>
+  <text x="800" y="170" text-anchor="middle" class="subtitle">Activate ideas quickly before the lesson</text>
+
+  <g transform="translate(170,260)">
+    <rect rx="24" width="360" height="360" fill="url(#card)"/>
+    <text x="180" y="120" text-anchor="middle" class="card-title">Think</text>
+    <text x="180" y="180" text-anchor="middle" class="card-text">1 minute</text>
+    <text x="180" y="220" text-anchor="middle" class="card-text">Write your own idea</text>
+  </g>
+
+  <g transform="translate(620,260)">
+    <rect rx="24" width="360" height="360" fill="url(#card)"/>
+    <text x="180" y="120" text-anchor="middle" class="card-title">Pair</text>
+    <text x="180" y="180" text-anchor="middle" class="card-text">2 minutes</text>
+    <text x="180" y="220" text-anchor="middle" class="card-text">Discuss with partner</text>
+  </g>
+
+  <g transform="translate(1070,260)">
+    <rect rx="24" width="360" height="360" fill="url(#card)"/>
+    <text x="180" y="120" text-anchor="middle" class="card-title">Share</text>
+    <text x="180" y="180" text-anchor="middle" class="card-text">2 minutes</text>
+    <text x="180" y="220" text-anchor="middle" class="card-text">Report to class</text>
+  </g>
+
+  <path class="arrow" d="M540 440 C580 440, 585 440, 610 440"/>
+  <path class="arrow" d="M990 440 C1030 440, 1035 440, 1060 440"/>
+</svg>

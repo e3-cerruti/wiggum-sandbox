@@ -1,0 +1,30 @@
+name: Week 1 Reflection Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate-reflection:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate Week 1 reflection
+        run: python tools/validate_week1_reflection.py
+
+      - name: Post success summary
+        if: success()
+        run: |
+          echo "## Week 1 reflection check passed" >> "$GITHUB_STEP_SUMMARY"
+          echo "The required reflection file exists and meets the minimum completion rules." >> "$GITHUB_STEP_SUMMARY"

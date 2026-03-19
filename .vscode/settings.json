@@ -1,0 +1,16 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  "workbench.startupEditor": "readme",
+  "markdown.preview.openMarkdownLinks": "inPreview",
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.devcontainer": true,
+    "**/.github/copilot-instructions.md": true,
+    "**/.github/UDL-EL-SUPPORT.md": true,
+    "**/.github/workflows": true,
+    "**/facilitation": true,
+    "**/slides": true,
+    "**/tools": true,
+    "**/ABOUT.md": true
+  }
+}
