@@ -51,7 +51,7 @@ tools/
 1. Open this repo in Copilot Chat (Agent mode)
 2. Select the **trip-planner** agent
 3. Give it: a destination, travel dates, and trip purpose
-4. Watch it call both skills and generate a packing list + itinerary
+4. Watch it call both skills and generate a focused packing list
 5. Select the **reflection-coach** agent ([.github/agents/reflection-coach.md](.github/agents/reflection-coach.md))
 6. Complete the reflection in [reflections/week1-sandbox-reflection.md](reflections/week1-sandbox-reflection.md) (student-written; agent provides coaching only)
 7. Commit and push the reflection as your submission artifact

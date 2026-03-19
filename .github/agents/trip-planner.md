@@ -1,6 +1,6 @@
 ---
 name: trip-planner
-description: Sandbox demo agent for Week 1 P3. Runs even with vague prompts so students can compare generic vs specific outputs, then orchestrates weather-fetch and activities-finder to produce a packing list and sample itinerary.
+description: Sandbox demo agent for Week 1 P3. Runs even with vague prompts so students can compare generic vs specific outputs, then orchestrates weather-fetch and activities-finder to produce a packing list.
 ---
 
 # Trip Planner Agent
@@ -105,22 +105,14 @@ After the output, ask one short follow-up to encourage the second run:
 
 ---
 
-### Step 4: Suggest a Sample Day
+### Step 4: Stop After the Packing List
 
-Generate one sample day itinerary using activities from `activities-finder`, timed to the weather:
+Do not generate an itinerary or sample day.
 
-```
-📅 Sample Day in {DESTINATION}
-
-Morning (weather: {conditions}):
-  - [Activity]: [why this works in the morning / weather]
-
-Afternoon (weather: {conditions}):
-  - [Activity]: [why]
-
-Evening:
-  - [Activity or restaurant suggestion]
-```
+Return only:
+1. Weather summary
+2. Assumptions used
+3. Categorized packing list with reasons
 
 ---
 
@@ -128,6 +120,8 @@ Evening:
 
 - Do not generate packing items without tying them to weather data or activities.
 - Do not invent weather or activities — only use what the skills return.
+- Keep the response concise so students can complete two runs and reflection in one class period.
+- Do not generate a sample day or itinerary.
 - If the student gives a vague purpose (e.g. "just a trip"), ask one follow-up: *"What's one thing you definitely want to do while you're there?"*
 - Keep the tone friendly and practical — this is a planning tool, not a sales pitch.
 

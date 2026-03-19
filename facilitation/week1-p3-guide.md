@@ -74,7 +74,7 @@ Agent + Skills:    destination + dates + purpose
               [weather-fetch: wttr.in → real forecast]
               [activities-finder: web search → real places]
                           ↓
-              [trip-planner: combines data → packing list + itinerary]
+              [trip-planner: combines data → packing list]
 ```
 
 Say to students:

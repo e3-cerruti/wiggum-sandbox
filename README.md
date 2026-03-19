@@ -26,7 +26,7 @@ Give the agent a real destination but keep the details minimal.
 Watch what the agent does:
 - It calls a **weather skill** to get a real forecast
 - It calls an **activities skill** to find things to do
-- It combines both into a packing list and a sample day
+- It combines both into a focused packing list
 
 **Scroll up in your chat to find this output** — you will compare it to Run 2.
 

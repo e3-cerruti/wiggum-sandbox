@@ -79,7 +79,7 @@ Flow:
 1. Student prompt (destination + dates + purpose)
 2. `trip-planner` agent orchestrates
 3. `weather-fetch` + `activities-finder` run
-4. Output: packing list + suggested day plan
+4. Output: focused packing list
 
 Why this matters:
 - better prompts + right tools = better outputs

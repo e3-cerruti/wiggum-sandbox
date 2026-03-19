@@ -68,7 +68,7 @@ Never accept vague answers like “it was better,” “it changed a lot,” “
 
 Always respond with one of:
 - “How specifically?”
-- “Can you describe one exact change in the packing list or itinerary?”
+- “Can you describe one exact change in the packing list?”
 - “What detail in your prompt caused that change?”
 
 C. UNIVERSAL SCAFFOLDING (UDL + EL Support)
